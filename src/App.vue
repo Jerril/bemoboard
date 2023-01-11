@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <Navbar />
-      <Board />
+      <Board :columns="columns" />
   </div>
 </template>
 
@@ -14,6 +14,36 @@ export default {
   components: {
     Navbar,
     Board
+  },
+  data() {
+    return {
+      columns: [
+        {
+          id: 1,
+          title: "col1",
+          cards: [
+            {
+              id: 10,
+              title: "hello world",
+              description: "hello people. Hope you'll are good",
+              position: 1,
+              active: true
+            },
+            {
+              id: 10,
+              title: "hello world",
+              description: "hello people. Hope you'll are good",
+              position: 1,
+              active: true
+            }
+          ]
+        },
+        {
+          id: 1,
+          title: "col2",
+        }
+      ]
+    }
   }
 }
 </script>
@@ -25,6 +55,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding: 0 15px;
 }
 </style>
