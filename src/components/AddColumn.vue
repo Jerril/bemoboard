@@ -1,16 +1,15 @@
 <template>
-    <div id="navbar">
-        <p>BeMo</p>
-        <button title="Add Column">+</button>
+    <div id="add-column">
+        + Add a Column
     </div>
 </template>
 <script>
 export default {
-    name: "Navbar"
+    name: "AddColumn"
 }
 </script>
 <style>
-    #navbar {
+    #add-column {
         text-align: center;
     }
 </style>

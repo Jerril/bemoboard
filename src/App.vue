@@ -39,7 +39,7 @@ export default {
           ]
         },
         {
-          id: 1,
+          id: 2,
           title: "col2",
         }
       ]
@@ -55,6 +55,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding: 0 15px;
+  padding: 0 
 }
 </style>

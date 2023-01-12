@@ -24,7 +24,7 @@ export default {
     #board {
         display: flex;
         gap: 10px;
-        overflow-x: scroll;
+        overflow-x: auto;
         padding: 15px 0;
     }
 
